@@ -1,171 +1,145 @@
 export const perguntas = [
     {
-        enunciado: "em seu primeiro dia depois de seu pai morrer e vc assumir o trono, você fica apreensivo, mas toma uma decisão. qual é essa decisão?",
+        enunciado: "Você acaba de ser nomeado líder de um grupo estudantil que irá organizar a primeira Feira de Inovação da escola. Qual será sua primeira ação como líder?",
         alternativas: [
             {
-                texto: "escolher um conselheiro!",
+                texto: "Escolher uma equipe diversa para organizar tudo.",
                 afirmacao: [
-                    "Você decide escolher um conselheiro.",
-                    "Você quer que seja alguém que seja bom e honesto."
+                    "Você decide montar uma equipe com pessoas de diferentes habilidades.",
+                    "Acredita que um time colaborativo vai trazer ideias mais criativas e inclusivas."
                 ],
                 proxima: 1,
             },
             {
-                texto: "aumentar o reino!",
+                texto: "Começar a planejar o evento sozinho para ganhar tempo.",
                 afirmacao: [
-                    "Você decide aumentar o seu reino.",
-                    "Você manda os construtores aumentarem os muros de seu reino com ajuda de alguns camponeses do reino."
+                    "Você decide agir rapidamente e tomar as rédeas do planejamento.",
+                    "Prefere garantir que tudo saia conforme sua visão, mesmo que seja mais trabalhoso."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Ao montar a equipe, um professor sugere que vocês usem ferramentas de IA para agilizar as ideias. O que você faz?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Aceita a sugestão e começa a explorar as ferramentas de IA com a equipe.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Descobre novas ideias com a ajuda da IA que talvez não surgissem de forma tradicional.",
+                    "Percebe que a IA pode ser uma aliada poderosa no processo criativo."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Prefere manter o processo todo manual e criativo, sem interferência da IA.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Decide focar no talento humano e acredita que isso valoriza mais o trabalho da equipe.",
+                    "Percebe que nem todos se sentem confortáveis usando IA e resolve priorizar o equilíbrio."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Um chat com IA pode ser uma boa alternativa para realizar tarefas do dia a dia e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Mesmo trabalhando sozinho, você percebe que precisa de ajuda para criar um plano visual para o evento. O que faz?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Utiliza uma IA para gerar uma proposta de layout visual para o evento.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Fica impressionado com a rapidez da IA em gerar um layout criativo.",
+                    "Decide usar isso como base e depois ajustar com o toque humano."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Desenha esboços à mão e busca inspiração em revistas antigas e livros.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Gosta do processo manual e sente que isso fortalece sua conexão com o projeto.",
+                    "Acredita que o estilo clássico pode se destacar em meio a tantas tendências digitais."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Durante as reuniões, surge um debate: a IA vai tirar empregos ou vai criar novas funções? Qual seu posicionamento?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "A IA vai transformar o mercado e abrirá novas possibilidades.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Você acredita que a IA pode ser uma ferramenta de empoderamento e inclusão.",
+                    "Defende que, com preparo, todos podem se adaptar ao novo cenário tecnológico."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "A IA é uma ameaça ao emprego de muitas pessoas.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Você ressalta que nem todos têm acesso à tecnologia, e isso pode aumentar desigualdades.",
+                    "Defende que a sociedade precisa proteger os mais vulneráveis nesse processo de transição."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Utilizar informações próprias traz um toque pessoal ao nosso trabalho. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Você e sua equipe decidem fazer uma apresentação sobre os impactos da IA na sociedade. Qual abordagem adotam?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Mostram os avanços positivos e como a IA pode melhorar a vida das pessoas.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
-                ],
-                proxima: 5,
-            },
-            {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
-                ],
-                proxima: 6,
-            },
-        ]
-    },
-    {
-        enunciado: "Novas tecnologias trazem novos desafios, por isso após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
-        alternativas: [
-            {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Destacam exemplos em saúde, educação e acessibilidade onde a IA já faz diferença.",
+                    "Querem inspirar os colegas a aprenderem mais sobre tecnologia."
                 ],
                 proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Mostram os riscos e criam um alerta sobre os excessos do uso da IA.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Expõem situações em que a IA pode violar privacidade ou ampliar desigualdades.",
+                    "Querem incentivar o uso consciente e ético da tecnologia."
                 ],
                 proxima: 7,
             },
         ]
     },
     {
-        enunciado: "É muito importante refletir sobre os trabalhadores do futuro. Por isso a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Um colega do grupo levanta a ideia de criar um painel interativo para a feira, usando IA. O que você decide?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Apoia a ideia e propõe criar um quiz interativo com IA para o público.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Vocês desenvolvem um jogo educativo usando IA e todos adoram a novidade.",
+                    "Percebem que unir tecnologia e diversão engaja mais pessoas no aprendizado."
                 ],
                 proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Prefere algo mais simples, como cartazes e folders informativos.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Acredita que uma comunicação clara e direta pode ser mais eficaz em certos contextos.",
+                    "Opta por uma apresentação acessível a todos, inclusive os que têm menos afinidade com tecnologia."
                 ],
                 proxima: 7,
             },
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Chega a hora de apresentar o projeto para a escola. Vocês precisam criar uma imagem representando o papel da IA no futuro. Como fazem isso?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Criam uma arte com ferramentas tradicionais de design digital.",
                 afirmacao: [
-                    "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
-                    "Ainda acha que os meios de desenho tradicionais são mais eficazes para a criatividade, por isso vem estimulando pessoas em suas redes sociais a fazer pintura em aquarela."
+                    "A equipe se dedica a ilustrar uma cena que represente equilíbrio entre humanos e tecnologia.",
+                    "Decidem mostrar que o futuro é feito por pessoas que usam a IA com consciência."
                 ],
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Usam um gerador de imagem por IA para expressar suas ideias de forma criativa.",
                 afirmacao: [
-                    "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!",
-                    "Compartilhou artes em redes sociais como forma de ensinar como se comunicar através da arte.",
-                    "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tirarem ideias do papel."
+                    "Geram imagens impressionantes que combinam símbolos de humanidade e tecnologia.",
+                    "Descobrem como a IA pode ajudar até quem tem dificuldade com arte a expressar suas ideias visualmente."
                 ],
             },
         ]
